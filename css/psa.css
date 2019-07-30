@@ -2,6 +2,7 @@ body {
   background: #e8e8e8;
   color: #444;
   font-family: arial;
+  font-size: 16px;
 }
 header {
   background: #444;
@@ -11,22 +12,22 @@ header {
   position: relative;
 }
 header .logo {
-  width: 75px;
   border-right: 1px solid #22bce0;
   float: left;
+  width: 60px;
 }
 header .logo img {
-  width: 70px;
+  width: 52px;
 }
 header .titular {
-  margin: 0 100px 0 100px;
+  margin: 0 60px 0 70px;
 }
 header .titular .filtro {
   color: #22bce0;
   font-size: 14px;
-  text-decoration: none;
   font-weight: bold;
   font-style: italic;
+  text-decoration: none;
 }
 header .titular .publicar {
   background: #dd4f24;
@@ -72,6 +73,17 @@ header .usuario .flechita {
 }
 nav {
   background: #22bce0;
+  border-left: 15px solid #fff;
+  position: relative;
+}
+nav:before {
+  border-bottom: 20px solid transparent;
+  border-left: 7px solid #fff;
+  border-top: 20px solid transparent;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
 }
 nav .menu {
   height: 40px;
