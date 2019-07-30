@@ -14,6 +14,26 @@ body
     font-family arial
     font-size: 16px
 
+footer 
+    background: naranja
+    bottom: 0
+    color: rgba(white,0.5)
+    text-align: center
+    position: absolute
+    width: 100%
+
+    h3 
+        font-size: 14px
+        font-weight: normal
+
+        strong 
+            display block
+        
+        .mejor
+            &:before
+            &:after
+                content: " - "
+
 header
     background gris_oscuro
     box-shadow: 0 5px 0 rgba(0,0,0,0.2)
@@ -129,6 +149,27 @@ nav
         .acciones
             border-top 3px solid azul
             padding: 0.5em
+            overflow hidden
+
+            .datos                
+                float right 
+
+                .comentarios
+                    background: gris_texto
+                    border-radius: 3px
+                    color: white
+                    margin: 0 1em 0 0
+                    padding: 2px 5px
+                    
+
+            .votos
+                float left 
+
+                .down
+                    color: red
+                
+                .up
+                    color green
         
         .descripcion
             color gris_texto
