@@ -78,7 +78,7 @@ nav {
 }
 nav:before {
   border-bottom: 20px solid transparent;
-  border-left: 20px solid #fff;
+  border-left: 7px solid #fff;
   border-top: 20px solid transparent;
   content: "";
   position: absolute;
